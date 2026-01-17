@@ -1,12 +1,13 @@
 {
-  "type": "crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:nether_wart_block"
+    "type": "crafting_shapeless",
+    "group": "nether_wart_block",
+    "ingredients": [
+        {
+            "item": "minecraft:nether_wart_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:nether_wart",
+        "count": 9
     }
-  ],
-  "result": {
-    "item": "minecraft:nether_wart",
-	"count": 9
-  }
 }
