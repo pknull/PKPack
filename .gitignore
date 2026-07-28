@@ -1,0 +1,11 @@
+# Local Minecraft server smoke-test artifacts
+/eula.txt
+/libraries/
+/logs/
+/server.properties
+/versions/
+/world/
+
+# Python validation artifacts
+__pycache__/
+*.py[cod]

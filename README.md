@@ -5,10 +5,13 @@ A Minecraft data pack that adds "missing" crafting recipes for quality-of-life i
 ## Features
 
 ### Universal Dyeing
-Re-dye any colored block to a different color or back to its original state:
+Re-dye supported colored blocks to any other color:
 - Wool, beds, concrete powder
 - Stained glass and glass panes
 - Terracotta and glazed terracotta
+
+Stained glass, glass panes, and terracotta can also be stripped back to their
+uncolored variants.
 
 ### Material Conversions
 - **Cobblestone to Gravel**: 1 cobblestone → 2 gravel
@@ -40,14 +43,22 @@ Convert regular sandstone variants to red sandstone variants using red dye.
 
 ## Compatibility
 
-- **Minecraft Version**: 1.21.x
-- **Pack Format**: 48
+- **Minecraft Java Edition**: 1.21–1.21.1 (tested on 1.21.1)
+- **Data Pack Format**: 48
 
 ## Recipe Count
 
-- 129 recipes across 10 namespaces
-- 17 item tag files for ingredient alternatives
+- 129 recipes across 9 namespaces
+- 9 item tag files for ingredient alternatives
+
+## Validation
+
+Run the repository's structural and recipe-invariant checks before packaging:
+
+```bash
+python3 tests/validate_pack.py
+```
 
 ## License
 
-Free to use and modify.
+[MIT License](LICENSE)
