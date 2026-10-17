@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "tag": "coral_blocks:brain_coral"
-        }
+        "#": "#coral_blocks:brain_coral"
     },
     "result": {
         "id": "minecraft:brain_coral_block",

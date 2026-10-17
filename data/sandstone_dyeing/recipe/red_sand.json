@@ -5,33 +5,15 @@
         "count": 8
     },
     "ingredients": [
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:sand"
-        },
-        {
-            "item": "minecraft:red_dye"
-        }
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:red_dye"
     ],
     "group": "sandstone_dyeing"
 }

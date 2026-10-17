@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:blackstone",
+    "addition": "minecraft:gold_ingot",
+    "result": {
+        "id": "minecraft:gilded_blackstone",
+        "count": 1
+    }
+}

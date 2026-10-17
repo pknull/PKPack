@@ -5,15 +5,9 @@
         "count": 2
     },
     "ingredients": [
-        {
-            "item": "minecraft:smooth_sandstone"
-        },
-        {
-            "item": "minecraft:smooth_sandstone"
-        },
-        {
-            "item": "minecraft:red_dye"
-        }
+        "minecraft:smooth_sandstone",
+        "minecraft:smooth_sandstone",
+        "minecraft:red_dye"
     ],
     "group": "sandstone_dyeing"
 }

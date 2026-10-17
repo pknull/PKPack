@@ -6,9 +6,11 @@ A Minecraft data pack that adds "missing" crafting recipes for quality-of-life i
 
 ### Universal Dyeing
 Re-dye supported colored blocks to any other color:
-- Wool, beds, concrete powder
+- Concrete powder
 - Stained glass and glass panes
 - Terracotta and glazed terracotta
+
+Wool and beds are left to vanilla, which re-dyes them to any color.
 
 Stained glass, glass panes, and terracotta can also be stripped back to their
 uncolored variants.
@@ -33,27 +35,38 @@ Convert regular sandstone variants to red sandstone variants using red dye.
 ### Smelting Recipes
 - **Rotten Flesh to Leather**: Smelt rotten flesh in a furnace to get leather
 
+### Smithing Recipes
+- **Gilded Blackstone**: Blackstone + gold ingot at a smithing table, no template
+
+### Climbable Blocks
+Every chain block (`#minecraft:chains`) and bamboo can be climbed like a ladder.
+
 ## Installation
 
 1. Download or clone this repository
-2. Place the `PKPack` folder into your Minecraft world's `datapacks` folder:
+2. Place `pack.mcmeta` and `data/` in a `PKPack` folder inside your world's `datapacks` folder,
+   or build a zip with `git archive --format=zip -o PKPack.zip HEAD pack.mcmeta data`:
    - **Singleplayer**: `.minecraft/saves/<world>/datapacks/`
    - **Server**: `<server>/world/datapacks/`
 3. Run `/reload` in-game or restart the world
 
 ## Compatibility
 
-- **Minecraft Java Edition**: 1.21–1.21.1 (tested on 1.21.1)
-- **Data Pack Format**: 48
+- **Minecraft Java Edition**: 26.3 (tested on a 26.3 Fabric server)
+- **Data Pack Format**: 121 (`min_format`/`max_format`)
+
+The last 1.21.1 release (pack format 48) is commit `8449846`.
 
 ## Recipe Count
 
-- 129 recipes across 9 namespaces
+- 98 recipes across 10 namespaces
 - 9 item tag files for ingredient alternatives
+- 1 block tag (`minecraft:climbable`)
 
 ## Validation
 
-Run the repository's structural and recipe-invariant checks before packaging:
+Run the repository's structural and recipe-invariant checks before packaging. Item and block
+ids are checked against the 26.3 registry lists in `tests/registry/26.3/`:
 
 ```bash
 python3 tests/validate_pack.py

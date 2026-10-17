@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "tag": "coral_blocks:tube_coral"
-        }
+        "#": "#coral_blocks:tube_coral"
     },
     "result": {
         "id": "minecraft:tube_coral_block",
